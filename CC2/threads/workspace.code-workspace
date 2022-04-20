@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../files"
+		},
+		{
+			"path": "../semaphores"
+		},
+		{
+			"path": "."
+		}
+	]
+}

@@ -1,0 +1,18 @@
+
+Le protocole de transport TCP permet de réaliser des communications en mode connecté. Un message envoyé en TCP
+est transféré/acheminé sous forme de flux d'octets. Enfin, TCP gère la duplication et la remise dans 
+l'ordre des paquets à leur réception. 
+
+2.TCP
+
+Etape 1:
+- regarder 'etape4' du client, affiche bien le nombre d'octets reçu pour le serveur
+ qui ne fait qu'une reception
+
+Etape 2 :
+-ajouter '\0' pas réussi
+-ajouter le numero d'octect ok voir etape 4 du client
+-le message n'est pas entierement reçu si ça dépasse le parametre > char msg[50] ;
+
+Etape 3 :
+-boucle while avec un compteur i

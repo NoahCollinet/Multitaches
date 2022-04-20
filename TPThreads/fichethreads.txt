@@ -1,0 +1,17 @@
+1: Parallélisme de tâches
+1)
+2) Les autres tâches ne finissent pas.
+3) Les tâches se lançant après ( temps pas numéro ) ne se finiront pas.
+4) 
+5)
+
+
+
+
+
+3: Rendez-vous
+-sémaphores : verrous
+4 étapes : variables globales, variables propres à chaque thread, fonction main, fonction thread
+
+1) attente d'un évènement : libération d'un verrou
+2) on crée un cpt (verouille l'accès à sa variable), un cpt de verrou et une condition
